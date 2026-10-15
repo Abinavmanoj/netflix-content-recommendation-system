@@ -1,5 +1,11 @@
-
 # Netflix Content Recommendation System
+## Internship Project
+
+**Company:** Auspify Technologies  
+**Role:** Machine Learning Intern  
+**Project:** Netflix Content Recommendation System  
+
+This project was developed as part of my Machine Learning Internship at Auspify Technologies. It explores content-based recommendation techniques to suggest Netflix titles based on genre and metadata similarity.
 
 ## Project Overview
 A content-based recommendation system that suggests
