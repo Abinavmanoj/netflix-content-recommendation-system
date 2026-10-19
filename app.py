@@ -114,5 +114,5 @@ st.divider()
 
 st.caption(
     "Built with Python, Pandas, Streamlit and scikit-learn | "
-    "Auspify Technologies Machine Learning Internship"
+    
 )
