@@ -3,14 +3,14 @@ import streamlit as st
 import pandas as pd
 from recommendation import recommend_titles, df
 
-# Page configuration
+
 st.set_page_config(
     page_title="Netflix Recommendation System",
     page_icon="🎬",
     layout="wide"
 )
 
-# Styling
+
 st.markdown("""
 <style>
 .stApp {
@@ -30,7 +30,7 @@ div.stButton > button {
 </style>
 """, unsafe_allow_html=True)
 
-# Header
+
 st.title("🎬 Netflix Content Recommendation System")
 st.write(
     "Discover similar movies and TV shows using "
@@ -39,7 +39,7 @@ st.write(
 
 st.divider()
 
-# Dataset information
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -53,7 +53,7 @@ with col3:
 
 st.divider()
 
-# Title selection
+
 titles = sorted(
     df["title"].dropna().astype(str).unique().tolist()
 )
